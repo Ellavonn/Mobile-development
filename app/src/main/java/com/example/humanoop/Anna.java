@@ -26,17 +26,19 @@ public class Anna extends Human {
     @Override
     public void eat() {
         super.eat();
-        weight = weight+2;
-        Log.d("Anna", "New weight is"+ weight);
-
+        int myWeight = getWeight();
+        myWeight = myWeight + 2;
+        setWeight(myWeight);
     }
 
     @Override
     public void birthday() {
-//        super.birthday();
-        age= age + 4;
-        Log.d("Anna","New age is age"+age);
+        int annaAge = getAge();
+        annaAge = annaAge + 4;
+        setAge(annaAge);
+
+
 
     }
 }
-}
+

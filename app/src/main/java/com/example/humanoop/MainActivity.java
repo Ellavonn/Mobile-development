@@ -28,16 +28,20 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-     Human Girl = new Human("Stella", 45,18);
-     Girl.birthday();
-     Girl.eat();
-     Log.d("Human",Girl.getName());
-     Girl.sleep(5);
-     Girl.speak("I am awesome");
+//     Human Girl = new Human("Stella", 45,18);
+//     Girl.birthday();
+//     Log.d("Girl","Girl age is"+ Girl.getAge());
+//     Girl.eat();
+//     Log.d("Human",Girl.getName());
+//     Girl.sleep(5);
+//     Girl.speak("I am awesome");
 
      Anna Love = new Anna("Anna",55,28);
-     Love.birthday();
      Love.eat();
+     Log.d("Anna","Annas new weight is"+Love.getWeight());
+        Love.birthday();
+        Log.d("Anna","Your new age is"+Love.getAge());
+
 
 
     }
